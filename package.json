@@ -1,14 +1,17 @@
 {
   "name": "plan-salud-server",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.1.0",
   "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "@anthropic-ai/sdk": "^0.27.0",
+    "@anthropic-ai/sdk": "^0.98.0",
     "cors": "^2.8.5",
-    "express": "^4.19.2"
+    "express": "^4.21.2"
   }
 }
