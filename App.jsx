@@ -4,8 +4,7 @@ import { Upload, Loader2, Pill, CalendarClock, AlertCircle, Plus, Trash2, Clock,
 
 // URL de tu backend propio que hace de intermediario con la API de Anthropic.
 // Ver server/index.js para un ejemplo mínimo. Configurala en un archivo .env como VITE_API_URL.
-const API_URL = import.meta.env.VITE_API_URL || "http://localhost:3000/api/leer-receta";
-
+const API_URL = "https://plan-salud-server-production.up.railway.app";
 const MOMENTOS = [
   { id: "manana", label: "Mañana", sub: "6:00–11:59" },
   { id: "tarde", label: "Tarde", sub: "12:00–17:59" },
